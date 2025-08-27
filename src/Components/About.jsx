@@ -28,7 +28,7 @@ const About = () => {
   return (
     <div id='about'>
       <div className='mb-16 md:px-0 px-5'>
-        <div className='content grid grid-cols-12 gap-6'>
+        <div className='content'>
             <div className='md:col-span-8'>
                 <p className='badge'>Best Cocktails</p>
                 <h2>Where every detail matters<span className='text-white'>-</span>
@@ -51,7 +51,7 @@ const About = () => {
              </div>
         </div>
       </div>
-      <div className='top-grid grid grid-cols-12 gap-6'>
+      <div className='top-grid'>
         <div className='md:col-span-3'>
             <div className='noisy'/>
             <img src='/images/abt1.png' alt='grid-img-1'/>
@@ -65,7 +65,7 @@ const About = () => {
             <img src='/images/abt5.png' alt='grid-img-5'/>
         </div>
       </div> 
-      <div className='bottom-grid grid grid-cols-12 gap-6'>
+      <div className='bottom-grid'>
           <div className='md:col-span-8'>
             <div className='noisy'/>
             <img src='/images/abt3.png' alt='grid-img-3'/>
